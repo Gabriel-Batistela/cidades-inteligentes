@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+/* INDEX */
+
+div.container {
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 249, 242);
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.title-cidade {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    ;
+}
+
+div.mapa {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(11, 0, 81);
+}
+
+div.img-sp {
+    background-color: rgb(139, 139, 139);
+    text-align: start;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.img-sc {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255, 199, 44, 0.841);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.img-ba {
+    text-align: end;
+    padding: 30px;
+    background-color: rgba(70, 0, 53, 0.841);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.img-ja {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(43, 255, 195, 0.841);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.img-parna {
+    text-align: start;
+    padding: 30px;
+    background-color: rgba(133, 89, 0, 0.841);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.img-san {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(0, 41, 92);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.img-ju {
+    text-align: right;
+    padding: 30px;
+    background-color: rgba(255, 120, 219, 0.841);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.img-ca {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(105, 171, 252, 0.841);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.img-so {
+    text-align: initial;
+    padding: 30px;
+    background-color: rgba(252, 105, 105, 0.841);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.img-standre {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(242, 255, 141, 0.841);
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* CIDADES */
+
+div.cidade {
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+.cidade-title {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    margin-bottom: 60px;
+}
+
+
+.cidade-button {
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    background-color: rgb(72, 72, 72);
+    cursor: pointer;
+    border-bottom: 4px solid black;
+}
+
+.pontos-turisticos-title {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pontos-turisticos {
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+div.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(55, 55, 55);
+}
+
+.creditos {
+    color: aliceblue;
+    font-size: 13px;
+    font-family: none;
+}
+
+/* BACKGROUNDS CIDADES */
+
+.barueri {
+    background-color: rgb(212, 235, 255);
+}
+
+.campinas {
+    background-image: linear-gradient(red, yellow);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.jaguariuna {
+    background-color: rgb(255, 176, 176);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.jundiai {
+    background-image: linear-gradient(rgb(166, 160, 255), yellow);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.santana-de-parnaiba {
+    background-color: rgb(255, 255, 183);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.santo-andre {
+    background-color: rgb(159, 255, 159);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.santos {
+    background-color: rgb(255, 158, 223);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sao-caetano {
+    background-image: linear-gradient(rgb(95, 0, 92), rgb(182, 2, 2));
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sao-paulo {
+    background-image: linear-gradient(rgb(105, 103, 103), rgb(255, 0, 0));
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sorocaba {
+    background-color: rgb(166, 255, 200);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
